@@ -21,10 +21,14 @@ From a similar sample size at opposite times of the year, the results show:
 ![surfs_up](https://user-images.githubusercontent.com/106559768/185224699-99ddf17c-bff0-4a34-b7f2-f900f48de9b5.png)
 
 ## Summary
-The previous image shows the outcome of a query that instructed SQLAlchemy to fetch the data for every day of June 2021, and every day of December 2021. Between the first and last day of the month, June and December returned 1700 and 1517 data points respectively, meaning data points were recorded on average about 53 times a day. This is a compelling detail that supports the idea that this data set provide a solid foundation for this analysis.
+The previous image shows the outcome of a query that instructed SQLAlchemy to fetch the data for every day of June 2021, and every day of December 2021. Between the first and last day of the month, June and December returned 1700 and 1517 data points respectively, meaning data points were recorded on average about 53 times a day. 
 
-The results show that the average temperatures are very close to eachother, with June being slightly warmer than December on Average. This is a good indication the business will be set up for success; if summer, the quintessential time of year for outdoor activities, is on average a similar temperature as winter, the weather should be nice year round! This idea is reinforced by the standard deviation. Because standard deviation measures how far the data is spread from the average, a smaller number indicates the data is close to the average. The results show the temperatures are generally within 3 or 4 degrees of the average. 
+The results show that the average temperatures are very close to eachother, with June being slightly warmer than December on Average. This is a good indication the business will be set up for success; if summer, the quintessential time of year for outdoor activities, is on average a similar temperature as winter, the weather should be nice year round! This idea is reinforced by a small standard deviation. Because the standard deviation measures how far the data is spread from the average, and a smaller number indicates the temperature is in general close to the average. If plotted on a histogram, the data is consistent with these findings. 
 
+![surfs_up](https://user-images.githubusercontent.com/106559768/185295415-5efbd989-a93d-49ed-ac91-be376be858fe.png)
+
+Although the temperature data is generally in support of the buisness proposal, the minimum temperatures should also be considered. In December, temperatures reached a low of 56 degrees, compared to a low of 64 degrees in June. This suggests that cold days in December might be colder,  which could impact traffic if it is too cold for surfing (never too cold for ice cream!). When considering the minimum temperature, the first quartile temperature should also be taken into account. Even though the cold days might be colder, 25% of the data below the average is only a 2 degree differemce from the average, this sugests in general the cold days are not too much colder than the average. 
+ 
 
 
 
