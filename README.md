@@ -29,8 +29,7 @@ The results show that the average temperatures are very close to eachother, with
 
 Although the temperature data is generally in support of the buisness proposal, the minimum temperatures should also be considered. In December, temperatures reached a low of 56 degrees, compared to a low of 64 degrees in June. This suggests that cold days in December might be colder,  which could impact traffic if it is too cold for surfing (never too cold for ice cream!). When considering the minimum temperature, the first quartile temperature should also be taken into account. Even though the cold days might be colder, 25% of the data below the average is only a 2 degree differemce from the average, this sugests in general the cold days are not too much colder than the average. 
  
-
-
+Another querys that might be helpful in painting a picture about weather patterns might include a query that returns average percipitation statistics for June and December. This information might provide insight into another adverse weather trend that has potential to affect the "Surf'n'Shake" buisness. It might also be useful to query all of the temperatues *from the previous year(1). Using Matplotlib, the results can be transformed into a line graph which would be helpful in visualizing the data over time. 
 
   (1) SQLite data provided is from 2017, "of previous year" outdated from 2022. Given a data set from 2021, results would be more relevant. 
 
