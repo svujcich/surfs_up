@@ -25,7 +25,7 @@ The previous image shows the outcome of a query that instructed SQLAlchemy to fe
 
 The results show that the average temperatures are very close to eachother, with June being slightly warmer than December on Average. This is a good indication the business will be set up for success; if summer, the quintessential time of year for outdoor activities, is on average a similar temperature as winter, the weather should be nice year round! This idea is reinforced by a small standard deviation. Because the standard deviation measures how far the data is spread from the average, and a smaller number indicates the temperature is in general close to the average. If plotted on a histogram, the data is consistent with these findings. 
 
-![surfs_up](https://user-images.githubusercontent.com/106559768/185295415-5efbd989-a93d-49ed-ac91-be376be858fe.png)
+![surfs_up](https://raw.githubusercontent.com/svujcich/surfs_up/main/Resources/temps_june_december.png)
 
 Although the temperature data is generally in support of the buisness proposal, the minimum temperatures should also be considered. In December, temperatures reached a low of 56 degrees, compared to a low of 64 degrees in June. This suggests that cold days in December might be colder,  which could impact traffic if it is too cold for surfing (never too cold for ice cream!). When considering the minimum temperature, the first quartile temperature should also be taken into account. Even though the cold days might be colder, 25% of the data below the average is only a 2 degree differemce from the average, this sugests in general the cold days are not too much colder than the average. 
  
