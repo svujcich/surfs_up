@@ -83,6 +83,7 @@ def welcome():
 
 
 #2a: define "precipitation" route
+# extracts and displays precipitation data from the previous year 
 @app.route("/api/v1.0/precipitation")
 def precipitation():
     
@@ -99,6 +100,7 @@ def precipitation():
 
 
 #3a: define "stations" route
+# displays a list of the stations
 @app.route("/api/v1.0/stations")
 
 #3b: create a new function called stations()
@@ -116,6 +118,7 @@ def stations():
 
 
 #4a: define temperature route
+#creates a list of temperature records from the most active station from the past year
 @app.route("/api/v1.0/tobs")
 
 #4b: Create a function; def temp_monthly():.\ return 
@@ -138,6 +141,7 @@ def temp_monthly():
 
 
 #5a define route for min, max, and avg temps
+# route takes in start and end date
 @app.route("/api/v1.0/temp/<start>")
 @app.route("/api/v1.0/temp/<start>/<end>")
 
