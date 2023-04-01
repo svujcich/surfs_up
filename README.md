@@ -31,6 +31,8 @@ Although the temperature data is generally in support of the buisness proposal, 
  
 Another querys that might be helpful in painting a picture about weather patterns might include a query that returns average percipitation statistics for June and December. This information might provide insight into another adverse weather trend that has potential to affect the "Surf'n'Shake" buisness. It might also be useful to query all of the temperatues *from the previous year(1). Using Matplotlib, the results can be transformed into a line graph which would be helpful in visualizing the data over time. 
 
+Click [here](https://www.youtube.com/watch?v=4-mGiIRBhsE&t=9s) for a video explination of how python can work with SQLalchemy to query a SQLlite database, and a demo of using Flask to display SQLalchemy query results in an html page. 
+
 ##### Notes
   (1) SQLite data provided is from 2017; "of previous year" outdated from 2022. Given a data set from 2021, results would be more relevant. 
 
